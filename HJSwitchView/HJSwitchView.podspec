@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "HJSwitchView"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of HJSwitchView."
+  spec.summary      = "Switch View for HJ"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/HJSwitchView"
+  spec.homepage     = "https://github.com/enLeeJust/HJSwitchView.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/HJSwitchView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/enLeeJust/HJSwitchView.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+   spec.dependency "Masonry"
 
 end
